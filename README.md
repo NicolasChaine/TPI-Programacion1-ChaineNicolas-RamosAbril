@@ -4,7 +4,7 @@ Repositorio para el Trabajo Practico Integrador de Programacion 1 - 1er Cuatrime
 
 ## Integrantes
 - Abril Genoveva Ramos Dietmair
-- Nombre del compañero/a
+- Nicolas Chaine
 
 ## Descripción del proyecto
 
@@ -122,10 +122,10 @@ El sistema controla:
 ## Enlaces importantes
 
 Repositorio GitHub:
-- Agregar enlace del repositorio.
+-(https://github.com/NicolasChaine/TPI-Programacion1-ChaineNicolas-RamosAbril.git)
 
 Video demostrativo:
 - Agregar enlace del video.
 
 Documentación en PDF:
-- Agregar enlace de la documentación.
+-(https://docs.google.com/document/d/1mbCMEoU-b9ab7Q27buk2WICrLVPhVJifpE6iJF1WNOg/edit?tab=t.0)
