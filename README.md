@@ -28,7 +28,7 @@ El programa permite realizar distintas operaciones como:
 
 ## Tecnologías utilizadas
 
-- Python 3.x
+- Python 3.14.2
 - Archivos CSV
 - Git y GitHub
 - Visual Studio Code
@@ -104,18 +104,6 @@ El sistema controla:
 - Búsquedas sin resultados.
 - Errores en la lectura del archivo CSV.
 - Filtros inválidos.
-
----
-
-## Participación de los integrantes
-
-### Abril Genoveva Ramos Dietmair
-- Desarrollo de las funciones del sistema.
-- Diseño de la estructura de datos.
-- Pruebas y validaciones.
-
-### Nombre del compañero/a
-- Completar con las tareas realizadas por el integrante.
 
 ---
 

@@ -31,6 +31,14 @@ def elegir_opcion_menu(rango):
     return int(opcion)
 
 
+def normalizar_continente(continente_ingresado):
+    for continente in CONTINENTES_VALIDOS:
+        if continente_ingresado.lower() == continente.lower():
+            return continente
+
+    return ""
+
+
 # ------------------------------------------------------------
 # FUNCIONES PARA ORDENAMIENTO
 # ------------------------------------------------------------
@@ -88,13 +96,18 @@ def cargar_paises_csv():
                 elif int(superficie) <= 0:
                     print(f"Fila {numero_fila} omitida: la superficie debe ser mayor a cero.")
                 else:
-                    pais = {}
-                    pais["nombre"] = nombre
-                    pais["poblacion"] = int(poblacion)
-                    pais["superficie"] = int(superficie)
-                    pais["continente"] = continente
+                    continente_normalizado = normalizar_continente(continente)
 
-                    paises.append(pais)
+                    if continente_normalizado == "":
+                        print(f"Fila {numero_fila} omitida: el continente no es válido.")
+                    else:
+                        pais = {}
+                        pais["nombre"] = nombre
+                        pais["poblacion"] = int(poblacion)
+                        pais["superficie"] = int(superficie)
+                        pais["continente"] = continente_normalizado
+
+                        paises.append(pais)
 
             numero_fila += 1
 
@@ -186,6 +199,13 @@ def agregar_pais(paises):
 
         if continente == "":
             raise ValueError("El continente no puede estar vacío.")
+
+        continente_normalizado = normalizar_continente(continente)
+
+        if continente_normalizado == "":
+            raise ValueError("El continente ingresado no es válido. Debe ser America, Europa, Asia, Africa u Oceania.")
+
+        continente = continente_normalizado
 
         nuevo_pais = {}
         nuevo_pais["nombre"] = nombre
@@ -320,10 +340,15 @@ Seleccione el tipo de filtro:
             if continente == "":
                 raise ValueError("El continente no puede estar vacío.")
 
+            continente_normalizado = normalizar_continente(continente)
+
+            if continente_normalizado == "":
+                raise ValueError("El continente ingresado no es válido. Debe ser America, Europa, Asia, Africa u Oceania.")
+
             encontrado = False
 
             for pais in paises:
-                if continente.lower() == pais["continente"].lower():
+                if continente_normalizado == pais["continente"]:
                     print(f" * {pais['nombre']} | Población: {pais['poblacion']} | Superficie: {pais['superficie']} km² | Continente: {pais['continente']}")
                     encontrado = True
 
