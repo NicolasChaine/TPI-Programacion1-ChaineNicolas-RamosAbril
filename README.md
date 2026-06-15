@@ -129,6 +129,6 @@ El sistema controla:
 
 - [Repositorio GitHub](https://github.com/NicolasChaine/TPI-Programacion1-ChaineNicolas-RamosAbril.git)
 
-- [Video explicativo](Aqui va el enlace del video)
+- [Video explicativo](https://www.youtube.com/watch?v=2iuJm_hvGmc)
 
 - [Documentación en PDF](./TP_Integrador_Programacion_Informe.pdf)
