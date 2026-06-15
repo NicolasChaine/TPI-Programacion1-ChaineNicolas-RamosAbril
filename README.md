@@ -1,10 +1,9 @@
-# TPI-Programacion1-ChaineNicolas-RamosAbril
-Repositorio para el Trabajo Practico Integrador de Programacion 1 - 1er Cuatrimestre 2026
 # Trabajo Práctico Integrador - Gestión de Datos de Países en Python
+Repositorio para el Trabajo Practico Integrador de Programacion 1 - 1er Cuatrimestre 2026
 
 ## Integrantes
 - Abril Genoveva Ramos Dietmair
-- Nicolas Chaine
+- Nicolas Marcelo Chaine
 
 ## Descripción del proyecto
 
@@ -28,7 +27,7 @@ El programa permite realizar distintas operaciones como:
 
 ## Tecnologías utilizadas
 
-- Python 3.14.2
+- Python 3.10 o superior. El proyecto fue probado con Python 3.14.2.
 - Archivos CSV
 - Git y GitHub
 - Visual Studio Code
@@ -55,11 +54,15 @@ Ejemplo:
 ## Instrucciones de ejecución
 
 1. Descargar o clonar el repositorio desde GitHub.
-2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Verificar que el archivo `paises.csv` se encuentre en la misma carpeta que el programa.
-4. Ejecutar el archivo principal de Python.
-5. Utilizar el menú en consola para seleccionar las diferentes opciones del sistema.
+2. Abrir la carpeta del proyecto en Visual Studio Code o en otra terminal.
+3. Verificar que los archivos `aplicacion_tp_integrador_RamosAbril_ChaineNicolas.py` y `paises.csv` se encuentren en la misma carpeta.
+4. Abrir una terminal dentro de esa carpeta.
+5. Ejecutar el siguiente comando:
+6. Utilizar el menú en consola para seleccionar las opciones del sistema.
 
+```bash
+python aplicacion_tp_integrador_RamosAbril_ChaineNicolas.py
+```
 ---
 
 ## Ejemplos de uso
@@ -88,10 +91,7 @@ Ingrese un país: Argentina
 
 Salida:
 ```
-Nombre: Argentina
-Población: 45376763
-Superficie: 2780400 km²
-Continente: America
+ * Argentina | Población: 45376763 | Superficie: 2780400 km² | Continente: America
 ```
 
 ---
@@ -107,13 +107,28 @@ El sistema controla:
 
 ---
 
+## Participación de los integrantes
+
+### Abril Genoveva Ramos Dietmair
+- Desarrollo del código en Python
+- Desarrollo del informe principal
+- Diseño y armado del README.md
+- Diseño y armado del archivo paises.csv
+- Diseño y armado del diagrama de flujo.
+
+### Nicolas Marcelo Chaine
+- Desarrollo del código en Python
+- Desarrollo del informe principal
+- Diseño y armado del README.md
+- Armado del repositorio en GitHub
+- Pruebas y validaciones.
+
+---
+
 ## Enlaces importantes
 
-Repositorio GitHub:
--(https://github.com/NicolasChaine/TPI-Programacion1-ChaineNicolas-RamosAbril.git)
+- [Repositorio GitHub](https://github.com/NicolasChaine/TPI-Programacion1-ChaineNicolas-RamosAbril.git)
 
-Video demostrativo:
-- Agregar enlace del video.
+- [Video explicativo](Aqui va el enlace del video)
 
-Documentación en PDF:
--(https://docs.google.com/document/d/1mbCMEoU-b9ab7Q27buk2WICrLVPhVJifpE6iJF1WNOg/edit?tab=t.0)
+- [Documentación en PDF](./TP_Integrador_Programacion_Informe.pdf)
